@@ -120,7 +120,7 @@ a {
 
 .contacts-link {
   display: block;
-  padding: 24px 0; /* Виправлено: падінги для формування висоти хедера */
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -133,7 +133,7 @@ a {
   color: #404bbf;
 }
 
-/* Hero */
+/* Hero Section */
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -151,18 +151,18 @@ a {
 
 .hero-button {
   display: block;
-  min-width: 169px;
-  height: auto; /* Видалено фіксовану висоту */
-  padding: 16px 32px; /* Додано падінги для простору */
+  margin: 0 auto;
   border: none;
   border-radius: 4px;
-  margin: 0 auto;
+  /* ВИПРАВЛЕНО: Розмір кнопки визначається падінгами, без min-width */
+  padding: 16px 32px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -223,7 +223,7 @@ a {
 }
 
 .team-content {
-  padding: 32px 16px; /* Додано бокові падінги */
+  padding: 32px 16px;
 }
 
 .team-subtitle {
